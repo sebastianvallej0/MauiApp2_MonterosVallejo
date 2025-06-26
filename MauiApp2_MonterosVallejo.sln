@@ -1,20 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp2_MonterosVallejo", "MauiApp2_MonterosVallejo\MauiApp2_MonterosVallejo.csproj", "{88E23704-55F1-412C-AEDE-80D93D9F249F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Machine = Debug|Machine
 		Release|Any CPU = Release|Any CPU
+		Release|Machine = Release|Machine
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Debug|Machine.ActiveCfg = Debug|Any CPU
+		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Debug|Machine.Build.0 = Debug|Any CPU
+		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Debug|Machine.Deploy.0 = Debug|Any CPU
 		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Release|Machine.ActiveCfg = Release|Any CPU
+		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Release|Machine.Build.0 = Release|Any CPU
+		{88E23704-55F1-412C-AEDE-80D93D9F249F}.Release|Machine.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

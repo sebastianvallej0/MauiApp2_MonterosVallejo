@@ -3,13 +3,14 @@
     x:Class="MauiApp2_MonterosVallejo.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MauiApp2_MonterosVallejo"
+    xmlns:views="clr-namespace:MauiApp2_MonterosVallejo.Views"
     Shell.FlyoutBehavior="Disabled"
-    Title="MauiApp_MonterosVallejo">
+    Title="MauiApp2_MonterosVallejo">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="WeatherView" />
-
+    <TabBar>
+        <ShellContent
+            Title="Clima"
+            ContentTemplate="{DataTemplate views:WeatherView}"
+            Route="WeatherView" />
+    </TabBar>
 </Shell>

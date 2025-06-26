@@ -1,6 +1,6 @@
 using MauiApp2_MonterosVallejo.ViewModels;
 
-namespace MauiApp_MonterosVallejo.Views;
+namespace MauiApp2_MonterosVallejo.Views;
 
 public partial class WeatherView : ContentPage
 {
